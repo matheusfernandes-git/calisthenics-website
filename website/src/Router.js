@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./components/Header/index";
 import Banner from "./components/Banner";
+import HomePage from './pages/HomePage/index'
 
 export default function AppRoutes() {
   return (
@@ -8,7 +9,7 @@ export default function AppRoutes() {
       <Header />
       <Banner />
       <Routes>
-        <Route to='/'/>
+        <Route path='/' element={<HomePage />}/>
       </Routes>
     </BrowserRouter>
   );

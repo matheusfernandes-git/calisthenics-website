@@ -1,0 +1,16 @@
+.container-post {
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 0px 0px 10px 10px;
+    padding-bottom: 1.5rem;
+    width: 300px;
+}
+
+.container-post img{
+    width: 100%;
+}
+
+.container-post p{
+    text-align: justify;
+    padding: 10px;
+}
