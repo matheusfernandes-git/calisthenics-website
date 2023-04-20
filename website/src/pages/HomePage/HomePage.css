@@ -12,6 +12,11 @@
     margin-top: 5rem;
 }
 
+.container-benefits{
+    background-color: rgba(61, 48, 48, 0.541);
+    padding: 120px;
+}
+
 .container-benefits, 
 .container-contact{
     display: flex;
@@ -22,6 +27,12 @@
 
 .container-benefits h2{
     font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.container-benefits ul,
+.container-contact ul{
+    margin-left: 50px;
 }
 
 .container-benefits li{
@@ -37,6 +48,7 @@
 
 .container-contact h2{
     text-align: left;
+    padding-bottom: 30px;
 }
 
 .container-contact li{

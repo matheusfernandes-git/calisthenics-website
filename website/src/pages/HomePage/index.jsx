@@ -5,6 +5,8 @@ import benefits from "../../components/json/benefits.json";
 import imgBenefit from "../../../src/assets/benefits.jpg";
 import imgContact from "../../../src/assets/contact.jpg";
 import { contactData } from "../../components/ContactData";
+import Footer from "../../components/Footer";
+import Button from '../../components/Button/index';
 
 export default function HomePage() {
   return (
@@ -39,9 +41,12 @@ export default function HomePage() {
               <span>{data.title}</span>
             </li>
           ))}
+          <Button children='Fale conosco'/>
         </ul>
         <img src={imgContact} alt="calistenia em grupo" />
       </section>
+      
+      <Footer />
     </div>
   );
 }
