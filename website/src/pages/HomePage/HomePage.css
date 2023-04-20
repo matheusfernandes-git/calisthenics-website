@@ -36,8 +36,13 @@
 }
 
 .container-benefits li{
-    font-size: 16px;
+    font-size: 18px;
     margin: 10px;
+}
+
+.container-benefits span{
+    margin-left: 8px;
+    font-size: 16px;
 }
 
 .container-benefits img,

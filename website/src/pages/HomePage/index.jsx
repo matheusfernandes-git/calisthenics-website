@@ -1,7 +1,7 @@
 import Posts from "../../components/Posts";
 import dados from "../../components/json/dados.json";
 import "./HomePage.css";
-import benefits from "../../components/json/benefits.json";
+import { benefitsData } from "../../components/BenefitsData";
 import imgBenefit from "../../../src/assets/benefits.jpg";
 import imgContact from "../../../src/assets/contact.jpg";
 import { contactData } from "../../components/ContactData";
@@ -25,8 +25,11 @@ export default function HomePage() {
         <img src={imgBenefit} alt="benefits" />
         <ul>
           <h2>Alguns benefícios da calistenia</h2>
-          {benefits.map((benefit) => (
-            <li key={benefit.id}>{benefit.benefit}</li>
+          {benefitsData.map((benefit) => (
+            <li key={benefit.id}>
+              {benefit.icon}
+              <span>{benefit.benefit}</span>
+            </li>
           ))}
         </ul>
       </section>
