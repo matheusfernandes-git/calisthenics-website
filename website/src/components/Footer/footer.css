@@ -1,0 +1,16 @@
+footer{
+    background-color: aqua;
+    height: 20vh;
+}
+
+.footer-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-list .link{
+    color: #000;
+    font-size: 25px;
+    margin-right: 15px;
+}

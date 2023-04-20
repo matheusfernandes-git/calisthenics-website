@@ -1,5 +1,6 @@
-.container h2{
+.title-exercices, .title-contact{
     text-align: center;
+    font-size: 40px;
 }
 
 .posts{
@@ -11,26 +12,39 @@
     margin-top: 5rem;
 }
 
-li {
-    list-style: none;
-}
-
-.container-benefits{
+.container-benefits, 
+.container-contact{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 150px;
 }
 
 .container-benefits h2{
-    text-align: justify;
     font-size: 40px;
 }
 
-.container-benefits img, ul{
-    display: inline-block;
+.container-benefits li{
+    font-size: 16px;
+    margin: 10px;
 }
 
-.container-benefits img{
+.container-benefits img,
+.container-contact img{
     height: 400px;
     border-radius: 4px;
+}
+
+.container-contact h2{
+    text-align: left;
+}
+
+.container-contact li{
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.container-contact span{
+    margin-left: 10px;
+    font-size: 16px;
 }
