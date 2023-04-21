@@ -24,7 +24,7 @@ export default function Header() {
   return (
     <header>
       <div className="container-logo">
-        <img src={logo} alt="" />
+        <img src={logo} alt="logo" />
       </div>
         <ul>
           {Links.map((link) => (

@@ -3,6 +3,10 @@
     font-size: 40px;
 }
 
+.container-posts{
+    margin-top: 200px;
+}
+
 .posts{
     padding: 0 6vw 3.625rem;
     display: flex;
@@ -15,14 +19,18 @@
 .container-benefits{
     background-color: rgba(61, 48, 48, 0.541);
     padding: 120px;
+    margin-top: 170px;
 }
 
-.container-benefits, 
 .container-contact{
+    margin-top: 170px;
+}
+
+.container-benefits div, 
+.container-contact div{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 150px;
 }
 
 .container-benefits h2{
@@ -64,4 +72,32 @@
 .container-contact span{
     margin-left: 10px;
     font-size: 16px;
+}
+
+@media (max-width: 1024px){
+    .container-benefits div,
+    .container-contact div{
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+
+    .container-benefits img{
+        margin-bottom: 50px;
+    }
+
+    .container-benefits h2,
+     .container-contact h2{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .container-benefits ul{
+        margin: 0;
+    }
+
+    .container-contact ul{
+        margin: auto;
+        text-align: justify;
+    }
 }

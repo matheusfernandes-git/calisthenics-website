@@ -10,7 +10,7 @@ import Button from '../../components/Button/index';
 
 export default function HomePage() {
   return (
-    <div className="container">
+    <div className="container-posts">
       <h2 className="title-exercices">
         Conheça 3 dos principais exercícios da calistenia
       </h2>
@@ -21,32 +21,38 @@ export default function HomePage() {
           </li>
         ))}
       </ul>
-      <section className="container-benefits" to='/beneficios'>
-        <img src={imgBenefit} alt="benefits" />
-        <ul>
-          <h2>Alguns benefícios da calistenia</h2>
-          {benefitsData.map((benefit) => (
-            <li key={benefit.id}>
-              {benefit.icon}
-              <span>{benefit.benefit}</span>
-            </li>
-          ))}
-        </ul>
+      <section className="container-benefits" >
+        <div>
+          <img src={imgBenefit} alt="benefits" />
+          <ul>
+            <h2>Alguns benefícios da calistenia</h2>
+            {benefitsData.map((benefit) => (
+              <li key={benefit.id}>
+                {benefit.icon}
+                <span>{benefit.benefit}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
       </section>
       <section className="container-contact">
-        <ul>
-          <h2 className="title-contact">
-            Faça parte dos nossos grupos de treino!
-          </h2>
-          {contactData.map((data, index) => (
-            <li key={index}>
-              {data.icon}
-              <span>{data.title}</span>
-            </li>
-          ))}
-          <Button children='Fale conosco'/>
-        </ul>
-        <img src={imgContact} alt="calistenia em grupo" />
+        <div>
+          <div className="container-content">
+            <ul>
+              <h2 className="title-contact">
+                Faça parte dos nossos grupos de treino!
+              </h2>
+              {contactData.map((data, index) => (
+                <li key={index}>
+                  {data.icon}
+                  <span>{data.title}</span>
+                </li>
+              ))}
+              <Button children='Fale conosco'/>
+            </ul>
+          </div>
+          <img src={imgContact} alt="calistenia em grupo" />
+        </div>
       </section>
       
       <Footer />

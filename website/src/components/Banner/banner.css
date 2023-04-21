@@ -1,5 +1,5 @@
 .text {
-	height: 100vh;
+	height: 40vh;
 	display: flex;
     flex-direction: column;
     padding-top: 300px;
