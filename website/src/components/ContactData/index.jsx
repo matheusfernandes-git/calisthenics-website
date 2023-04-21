@@ -3,7 +3,7 @@ import { SiGooglemaps } from "react-icons/si";
 
 export const contactData = [
   {
-    title: "contact@",
+    title: "contact@calisthenics.com",
     icon: <AiOutlineMail />,
   },
   {

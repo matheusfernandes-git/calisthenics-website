@@ -1,8 +1,8 @@
 import Posts from "../../components/Posts";
 import dados from "../../components/json/dados.json";
 import "./HomePage.css";
-import { benefitsData } from "../../components/BenefitsData";
-import imgBenefit from "../../../src/assets/benefits.jpg";
+import { benefitsData } from '../../components/BenefitsData/index';
+import imgBenefit from '../../../src/assets/benefits.jpg';
 import imgContact from "../../../src/assets/contact.jpg";
 import { contactData } from "../../components/ContactData";
 import Footer from "../../components/Footer";
@@ -21,7 +21,7 @@ export default function HomePage() {
           </li>
         ))}
       </ul>
-      <section className="container-benefits">
+      <section className="container-benefits" to='/beneficios'>
         <img src={imgBenefit} alt="benefits" />
         <ul>
           <h2>Alguns benefícios da calistenia</h2>

@@ -1,20 +1,21 @@
 import { Link } from "react-router-dom";
 import './Header.css'
+import logo from '../../assets/logo.png';
 
 export default function Header() {
   const Links = [
     {
-      name: "HOME",
+      name: "Home",
       to: "/",
       cName: 'nav_text'
     },
     {
-      name: "ABOUT",
-      to: "/about",
+      name: "Benefícios",
+      to: "/beneficios",
       cName: 'nav_text'
     },
     {
-      name: "CONTACT",
+      name: "Contact",
       to: "/contact",
       cName: 'nav_text'
     },
@@ -22,16 +23,16 @@ export default function Header() {
   
   return (
     <header>
-      <h1>LOGO</h1>
-      <div>
+      <div className="container-logo">
+        <img src={logo} alt="" />
+      </div>
         <ul>
           {Links.map((link) => (
-            <li>
-              <Link to={link.to} className={link.cName}>{link.name}</Link>
+            <li className={link.cName}>
+              <Link to={link.to}>{link.name}</Link>
             </li>
           ))}
         </ul>
-      </div>
     </header>
   );
 }

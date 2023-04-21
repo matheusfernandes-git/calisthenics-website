@@ -3,18 +3,18 @@
     "img": "../../../assets/exercices/1/barra.png",
     "title": "Barra fixa",
     "describe": "A barra fixa é a mais comum dentre os exercícios e a técnica para executar é bem simples, olha só: basta segurar na barra com a palma da mão voltada para frente, mais ou menos na altura dos ombros, e levantar o corpo.",
-    "id": "1" 
+    "id": 1 
 },
 {
     "img": "../../../assets/exercices/2/flexao.png",
     "title": "Flexão",
     "describe": "Outro exercício que está entre os principais é a flexão e todas as suas variações, para citar algumas: tradicional, diamante, inclinada e declinada, batendo palmas embaixo ou atrás das costas. É um ótimo exercício pra quem está começando.",
-    "id": "2" 
+    "id": 2
 },
 {
     "img": "../../../assets/exercices/3/barra-pararela.png",
     "title": "Barra pararela",
     "describe": "A barra paralela consiste em segura em duas barras, uma do lado da outra, e descer o corpo com as pernas dobradas ou esticadas. Trabalha diversos músculos do corpo como braços, peito, costas e abdômen.",
-    "id": "3" 
+    "id": 3
 }
 ]
