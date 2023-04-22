@@ -56,8 +56,6 @@ export default function HomePage() {
           <img src={imgContact} alt="calistenia em grupo" />
         </div>
       </section>
-
-      <Footer />
     </div>
   );
 }
