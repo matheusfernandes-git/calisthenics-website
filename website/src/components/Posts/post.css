@@ -3,6 +3,7 @@
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
     padding-bottom: 1.5rem;
     width: 300px;
+    padding: 10px;
 }
 
 .container-post img{

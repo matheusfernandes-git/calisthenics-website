@@ -1,12 +1,12 @@
 import Posts from "../../components/Posts";
 import dados from "../../components/json/dados.json";
 import "./HomePage.css";
-import { benefitsData } from '../../components/BenefitsData/index';
-import imgBenefit from '../../../src/assets/benefits.jpg';
+import { benefitsData } from "../../components/BenefitsData/index";
+import imgBenefit from "../../../src/assets/benefits.jpg";
 import imgContact from "../../../src/assets/contact.jpg";
 import { contactData } from "../../components/ContactData";
 import Footer from "../../components/Footer";
-import Button from '../../components/Button/index';
+import Button from "../../components/Button/index";
 
 export default function HomePage() {
   return (
@@ -21,9 +21,11 @@ export default function HomePage() {
           </li>
         ))}
       </ul>
-      <section className="container-benefits" >
+      <section className="container-benefits">
         <div>
-          <img src={imgBenefit} alt="benefits" />
+          <div className="container-imgBenefit">
+            <img src={imgBenefit} alt="benefits" />
+          </div>
           <ul>
             <h2>Alguns benefícios da calistenia</h2>
             {benefitsData.map((benefit) => (
@@ -35,26 +37,26 @@ export default function HomePage() {
           </ul>
         </div>
       </section>
-      <section className="container-contact">
-        <div>
-          <div className="container-content">
-            <ul>
-              <h2 className="title-contact">
-                Faça parte dos nossos grupos de treino!
-              </h2>
-              {contactData.map((data, index) => (
-                <li key={index}>
-                  {data.icon}
-                  <span>{data.title}</span>
-                </li>
-              ))}
-              <Button children='Fale conosco'/>
-            </ul>
-          </div>
+      <section className="contact">
+        <div className="div-content">
+          <h2 className="title-contact">
+            Faça parte dos nossos grupos de treino!
+          </h2>
+          <ul>
+            {contactData.map((data, index) => (
+              <li key={index}>
+                {data.icon}
+                <span>{data.title}</span>
+              </li>
+            ))}
+            <Button children="Fale conosco" />
+          </ul>
+        </div>
+        <div className="img-contact">
           <img src={imgContact} alt="calistenia em grupo" />
         </div>
       </section>
-      
+
       <Footer />
     </div>
   );

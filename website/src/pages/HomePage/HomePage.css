@@ -22,18 +22,22 @@
     margin-top: 170px;
 }
 
-.container-contact{
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 170px;
 }
 
 .container-benefits div, 
-.container-contact div{
+.contact div{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .container-benefits h2{
+    text-align: left;
     font-size: 40px;
     margin-bottom: 20px;
 }
@@ -54,50 +58,99 @@
 }
 
 .container-benefits img,
-.container-contact img{
+.contact img{
     height: 400px;
     border-radius: 4px;
 }
 
-.container-contact h2{
-    text-align: left;
+.contact h2{
+    width: 30rem;
     padding-bottom: 30px;
 }
 
-.container-contact li{
+.div-content{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+.contact li{
+    display: flex;
     margin-top: 10px;
     font-size: 25px;
 }
 
-.container-contact span{
+.contact span{
     margin-left: 10px;
     font-size: 16px;
 }
 
+.contact img{
+    width: 510px;
+    height: 100%;
+}
+
 @media (max-width: 1024px){
+
     .container-benefits div,
-    .container-contact div{
-        display: block;
-        text-align: center;
+    .contact div{
+        flex-direction: column;
         margin: 0;
+        display: grid;
+    }
+
+    .container-benefits h2{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .container-imgBenefit{
+        order: 2;
     }
 
     .container-benefits img{
+        margin-top: 50px;
         margin-bottom: 50px;
     }
+    
+    .container-benefits li{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        text-align: justify;
+        margin-top: 6px;
+    }
+    
+    .container-benefits span{
+        margin: 10px;
+        margin-top: -20px;
+        margin-left: 30px;
+    }
 
-    .container-benefits h2,
-     .container-contact h2{
-        text-align: center;
+    .contact{
+        flex-direction: column;
+    }
+  
+    .contact h2{
+        width: 28rem;
         font-size: 30px;
     }
-
-    .container-benefits ul{
-        margin: 0;
+    
+    .contact ul{
+        display: flex;
+        flex-direction: column;
+        margin-top: 6px;
+        margin-bottom: 70px;
+    }
+    
+    .img-contact{
+        display: block;
+        text-align: center;
     }
 
-    .container-contact ul{
-        margin: auto;
-        text-align: justify;
+    .img-contact img{
+        width: 450px;
+        height: 100%;
     }
+
 }
