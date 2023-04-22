@@ -30,6 +30,7 @@ header li{
     position: relative;
     text-decoration: none;
     color: #fff;
+    padding-bottom: 10px;
 }
 
 .nav_text a::after{
@@ -49,5 +50,9 @@ header li{
 
 .nav_text a:hover{
     color: #fff;
+}
+
+@media (max-width: 1024px){
+    
 }
 

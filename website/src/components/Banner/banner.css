@@ -2,13 +2,12 @@
 	height: 40vh;
 	display: flex;
     flex-direction: column;
-    padding-top: 300px;
+    padding-top: 250px;
     margin-left: 50px;
     color: #fff;
 	}
 	.span-1{
         font-size: 35px;
-        text-align: justify;
         font-weight: bold;
 	}
     
