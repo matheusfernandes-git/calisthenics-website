@@ -1,10 +1,10 @@
+.container{
+    margin-top: 200px;
+}
+
 .title-exercices, .title-contact{
     text-align: center;
     font-size: 40px;
-}
-
-.container-posts{
-    margin-top: 200px;
 }
 
 .posts{
@@ -57,6 +57,14 @@
     font-size: 16px;
 }
 
+.container-imgBenefit{
+    width: 400px;
+}
+
+.container img{
+    max-width: 100%;
+}
+
 .container-benefits img,
 .contact img{
     height: 400px;
@@ -85,12 +93,20 @@
     font-size: 16px;
 }
 
-.contact img{
-    width: 510px;
+.img-contact{
+    width: 500px;
+}
+
+.img-contact img{
+    width: 400px;
     height: 100%;
 }
 
 @media (max-width: 1024px){
+
+    .container{
+        width: 100%;
+    }
 
     .container-benefits div,
     .contact div{
@@ -109,6 +125,8 @@
     }
 
     .container-benefits img{
+        width: 300px;
+       
         margin-top: 50px;
         margin-bottom: 50px;
     }
@@ -117,7 +135,6 @@
         display: flex;
         flex-direction: column;
         margin: 0;
-        text-align: justify;
         margin-top: 6px;
     }
     
@@ -132,7 +149,8 @@
     }
   
     .contact h2{
-        width: 28rem;
+        width: 100%;
+        /* width: 28rem; */
         font-size: 30px;
     }
     
@@ -147,10 +165,4 @@
         display: block;
         text-align: center;
     }
-
-    .img-contact img{
-        width: 450px;
-        height: 100%;
-    }
-
 }

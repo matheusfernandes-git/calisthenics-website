@@ -5,12 +5,12 @@ import { benefitsData } from "../../components/BenefitsData/index";
 import imgBenefit from "../../../src/assets/benefits.jpg";
 import imgContact from "../../../src/assets/contact.jpg";
 import { contactData } from "../../components/ContactData";
-import Footer from "../../components/Footer";
 import Button from "../../components/Button/index";
+import Footer from "../../components/Footer";
 
 export default function HomePage() {
   return (
-    <div className="container-posts">
+    <div className="container">
       <h2 className="title-exercices">
         Conheça 3 dos principais exercícios da calistenia
       </h2>
@@ -56,6 +56,8 @@ export default function HomePage() {
           <img src={imgContact} alt="calistenia em grupo" />
         </div>
       </section>
+      <Footer />
     </div>
+    
   );
 }
