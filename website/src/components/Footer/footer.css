@@ -3,7 +3,6 @@ footer{
     color: #fff;
     background-color: #000;
     padding: 2rem 0;
-    height: 30vh;
     margin-top: 200px;
     width: 100%;
 }
@@ -59,7 +58,15 @@ footer .span-2{
         margin-left: 10px;
     }
 
+    footer ul{
+        align-items: left;
+    }
+
     .list-phone{
-        margin-right: 10px;
+        margin-right: 0px;
+    }
+
+    .list-phone span{
+        font-size: 14px;
     }
 }

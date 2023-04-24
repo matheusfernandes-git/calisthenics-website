@@ -20,7 +20,7 @@ export default function Footer() {
       <ul className="list-phone">
         <li>
           <AiOutlinePhone size={20} />
-          <span>99: 99999999</span>
+          <span>99:99999999</span>
         </li>
       </ul>
       <hr />

@@ -42,19 +42,17 @@ export default function HomePage() {
           <h2 className="title-contact">
             Faça parte dos nossos grupos de treino!
           </h2>
-          <ul>
-            {contactData.map((data, index) => (
-              <li key={index}>
-                {data.icon}
-                <span>{data.title}</span>
-              </li>
-            ))}
-            <Button children="Fale conosco" />
-          </ul>
+            <ul>
+              {contactData.map((data, index) => (
+                <li key={index}>
+                  {data.icon}
+                  <span>{data.title}</span>
+                </li>
+              ))}
+              <Button children="Fale conosco" />
+            </ul>
         </div>
-        <div className="img-contact">
           <img src={imgContact} alt="calistenia em grupo" />
-        </div>
       </section>
       <Footer />
     </div>
