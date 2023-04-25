@@ -1,5 +1,5 @@
 .text {
-	height: 70vh;
+	height: 60vh;
 	display: flex;
     flex-direction: column;
     padding-top: 200px;
@@ -20,6 +20,7 @@
 }
 
 @media (max-width: 1024px){
+
     .outer-text{
         background-attachment: local;
     }
@@ -28,6 +29,7 @@
 @media (min-width: 280px) and (max-width: 390px){
     .text{
         padding-top: 120px;
+        height: 65vh;
     }
     .span-1{
         font-size: 1.8em;

@@ -20,9 +20,9 @@ footer ul{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 1em;
     margin: auto;
     margin-top: -55px;
-    width: 150px;
 }
 
 footer ul .link{
@@ -64,7 +64,7 @@ footer .span-2{
     
     footer ul{
         margin-right: 30px;
-        gap: 1rem;
+        width: 150px;
     }
 
     .list-phone{
