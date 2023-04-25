@@ -7,22 +7,26 @@ import { AiOutlinePhone } from "react-icons/ai";
 export default function Footer() {
   return (
     <footer>
-      <img src={logo} alt="" />
-      <ul>
-        {footerData.map((data) => {
-          return (
-            <li>
-              <Link className="link">{data.icon}</Link>
-            </li>
-          );
-        })}
-      </ul>
-      <ul className="list-phone">
-        <li>
-          <AiOutlinePhone size={20} />
-          <span>99:99999999</span>
-        </li>
-      </ul>
+      <div>
+        <div className="container-logo">
+          <img src={logo} alt="logo" />
+        </div>
+        <ul>
+          {footerData.map((data) => {
+            return (
+              <li>
+                <Link className="link">{data.icon}</Link>
+              </li>
+            );
+          })}
+        </ul>
+        <ul className="list-phone">
+          <li>
+            <AiOutlinePhone size={20} />
+            <span>(99)9999-9999</span>
+          </li>
+        </ul>
+      </div>
       <hr />
       <p>
         <span>Calisthenics &copy; 2023 </span> <br />

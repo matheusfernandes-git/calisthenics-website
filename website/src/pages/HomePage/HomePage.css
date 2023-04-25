@@ -89,9 +89,6 @@
 
 @media (max-width: 415px){
 
-    .container{
-        width: 100%;
-    }
 
     .container-benefits{
         display: grid;
@@ -148,17 +145,18 @@
         font-size: 1.9em;
         text-align: center;
     }
-
-    .img-contact{
-        width: 350px ;
-    }
-
+    
     .div-content ul{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+    
+    .img-contact{
+        width: 350px ;
+    }
+    
 
 }
 
