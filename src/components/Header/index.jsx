@@ -13,9 +13,9 @@ export default function Header() {
   return (
     <header>
       <div className="div_img">
-        <Link to="/" alt="home">
+        <a href="#home" alt="home">
           <img src={logo} alt="logo" />
-        </Link>
+        </a>
       </div>
       <div className="nav_bar">
         <Link to="#" className="menu-bars">
@@ -32,7 +32,7 @@ export default function Header() {
           {Links.map((link, index) => {
             return (
               <li key={index} className={link.cName}>
-                <Link to={link.to}>{link.name}</Link>
+                <a href={link.to}>{link.name}</a>
               </li>
             );
           })}

@@ -1,17 +1,17 @@
 export const Links = [
     {
       name: "Home",
-      to: "/",
+      to: "#home",
       cName: 'nav_text'
     },
     {
       name: "Benefícios",
-      to: "/beneficios",
+      to: "#benefits",
       cName: 'nav_text'
     },
     {
       name: "Contact",
-      to: "/contact",
+      to: "#contact",
       cName: 'nav_text'
     },
   ];

@@ -7,6 +7,7 @@ import imgContact from "../../../src/assets/contact.jpg";
 import { contactData } from "../../components/ContactData";
 import Button from "../../components/Button/index";
 import Footer from "../../components/Footer";
+import { Link } from "react-router-dom";
 
 export default function HomePage() {
   return (
@@ -21,7 +22,7 @@ export default function HomePage() {
           </li>
         ))}
       </ul>
-      <section className="container-benefits">
+      <section id="benefits" className="container-benefits">
         <div>
           <div className="container-imgBenefit">
             <img src={imgBenefit} alt="benefits" />
@@ -37,7 +38,7 @@ export default function HomePage() {
           </ul>
         </div>
       </section>
-      <section className="contact">
+      <sectio id="contact" className="contact">
         <div className="div-content">
           <ul>
             <h2>Faça parte dos nossos grupos de treino!</h2>
@@ -53,7 +54,7 @@ export default function HomePage() {
         <div className="img-contact">
           <img src={imgContact} alt="calistenia em grupo" />
         </div>
-      </section>
+      </sectio>
       <Footer />
     </div>
   );
