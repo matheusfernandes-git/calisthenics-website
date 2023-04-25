@@ -38,7 +38,7 @@ export default function HomePage() {
           </ul>
         </div>
       </section>
-      <sectio id="contact" className="contact">
+      <section id="contact" className="contact">
         <div className="div-content">
           <ul>
             <h2>Faça parte dos nossos grupos de treino!</h2>
@@ -54,7 +54,7 @@ export default function HomePage() {
         <div className="img-contact">
           <img src={imgContact} alt="calistenia em grupo" />
         </div>
-      </sectio>
+      </section>
       <Footer />
     </div>
   );
