@@ -7,7 +7,6 @@ import imgContact from "../../../src/assets/contact.jpg";
 import { contactData } from "../../components/ContactData";
 import Button from "../../components/Button/index";
 import Footer from "../../components/Footer";
-import { Link } from "react-router-dom";
 
 export default function HomePage() {
   return (
