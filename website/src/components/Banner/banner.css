@@ -1,5 +1,5 @@
 .text {
-	height: 60vh;
+	height: 70vh;
 	display: flex;
     flex-direction: column;
     padding-top: 200px;
@@ -12,10 +12,17 @@
 	}
     
 .outer-text{
-    background-image: url('../../assets/banner.jpg');
+    background-image: url('../../assets/banner2.jpg');
     background-repeat: no-repeat;
+    background-attachment: fixed;
 	background-size: cover;
     background-position: center;
+}
+
+@media (max-width: 1024px){
+    .outer-text{
+        background-attachment: local;
+    }
 }
 
 @media (min-width: 280px) and (max-width: 390px){
