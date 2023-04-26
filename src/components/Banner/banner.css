@@ -2,7 +2,7 @@
 	height: 60vh;
 	display: flex;
     flex-direction: column;
-    padding-top: 200px;
+    padding-top: 150px;
     margin-left: 50px;
     color: #fff;
 	}
@@ -20,13 +20,12 @@
 }
 
 @media (max-width: 1024px){
-
     .outer-text{
         background-attachment: local;
     }
 }
 
-@media (min-width: 280px) and (max-width: 390px){
+@media (min-width: 280px) and (max-width: 460px){
     .text{
         padding-top: 120px;
         height: 65vh;
