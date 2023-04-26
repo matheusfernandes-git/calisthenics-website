@@ -87,7 +87,7 @@
     height: 350px;
 }
 
-@media (max-width: 415px){
+@media (max-width: 449px){
 
     .container{
         margin-top: 150px;
@@ -160,10 +160,9 @@
         width: 350px ;
     }
     
-
 }
 
-@media (min-width: 415px) and (max-width: 1024px){
+@media (min-width: 449px) and (max-width: 1024px){
 
     .container{
         width: 100%;
