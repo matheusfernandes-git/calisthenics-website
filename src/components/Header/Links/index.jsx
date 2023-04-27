@@ -10,7 +10,7 @@ export const Links = [
       cName: 'nav_text'
     },
     {
-      name: "Contact",
+      name: "Contato",
       to: "#contact",
       cName: 'nav_text'
     },
