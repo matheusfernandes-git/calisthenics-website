@@ -9,6 +9,7 @@ import Button from "../../components/Button/index";
 import Footer from "../../components/Footer";
 
 export default function HomePage() {
+
   return (
     <div className="container">
       <h2 className="title-exercices">
