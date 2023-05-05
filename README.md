@@ -1,4 +1,4 @@
-![imctable](https://user-images.githubusercontent.com/100592742/236352058-3b767492-777c-4a74-9738-c0775479143d.png)
+![calisthenics](https://user-images.githubusercontent.com/100592742/236355181-3b9f9dfd-265f-4aeb-ae52-bc1d53e238cb.png)
 <h1>Calisthenics website</h1>
 <p>In this project i created a calisthenics website template.</p>
 
